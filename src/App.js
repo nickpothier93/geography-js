@@ -1,26 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Welcome from './Welcome.js';
 
 class App extends Component {
   render() {
+    var obj = {ad: {src: './img/ad.png', b1: "France", b2: "Andorra", b3: "Spain", b4: "Bermuda"},
+              ae: {src: './img/ae.png', b1: "Qatar", b2: "Yemen", b3: "Oman", b4: "UAE"},
+              af: {src: './img/af.png', b1: "Afghanistan", b2: "Pakistan", b3: "Turkmenistan", b4: "Iraq"}};
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Welcome obj={obj}/>
     );
   }
 }
