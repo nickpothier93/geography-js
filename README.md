@@ -1,6 +1,6 @@
 ## Gerography.JS
 
-A simple web quiz game based on Wiki assets and studying useless facts.
+A simple web quiz game based on Wiki assets and studying useless facts. Created using React.JS and JQuery.
 
 ## Version History
 
