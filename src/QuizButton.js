@@ -4,7 +4,7 @@ export default class QuizButton extends React.Component {
     render(){
         return(
             <div>
-                <button>{this.props.answer}</button>
+                <button onClick={() => this.props.onClickFunc(this.props.answer)}>{this.props.answer}</button>
             </div>
             );
         }
