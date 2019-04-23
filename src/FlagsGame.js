@@ -1,13 +1,13 @@
 import React from "react";
 import Flag from "./Flag.js"
 import QuizButton from "./QuizButton"
-import $ from 'jquery'; 
+import $ from 'jquery';
 import Utils from "./Utils";
 
 export default class FlagGame extends React.Component {
   constructor (props) {
     super(props)
-    this.state = 
+    this.state =
       {count: props.count,
       country: props.country,
       score: props.score,
@@ -73,10 +73,9 @@ export default class FlagGame extends React.Component {
             <div>Time Remaining: {this.state.count}</div>
             <div>Score: {this.state.score}</div>
             <Flag flagFile={this.state.country.src} />
-            <QuizButton answer={this.state.country.b1} onClickFunc={this.selection.bind(this)}/>
-            <QuizButton answer={this.state.country.b2} onClickFunc={this.selection.bind(this)}/>
-            <QuizButton answer={this.state.country.b3} onClickFunc={this.selection.bind(this)}/>
-            <QuizButton answer={this.state.country.b4} onClickFunc={this.selection.bind(this)}/>
+            {this.state.country.buttons.map(number => (
+              <QuizButton key={number} answer={number} onClickFunc={this.selection.bind(this)}/>
+            ))}
           </div>
         </div>
 
