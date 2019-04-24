@@ -31,7 +31,24 @@ const obj = [ {src: require("./img/ad.png"), buttons: [ "France", "Andorra",  "S
  {src: require("./img/bt.png"), buttons: ["Bhutan", "Japan", "China", "Myanmar"],cor: "Bhutan"},
  {src: require("./img/bw.png"), buttons: ["Namabia", "Botswana", "South Africa", "Swaziland"],cor: "Botswana"},
  {src: require("./img/by.png"), buttons: ["Russia", "Lithuania", "Belarus", "Ukraine"],cor: "Belarus"},
- {src: require("./img/bz.png"), buttons: ["Mexico", "Costa Rica", "Panama", "Belize"],cor: "Belize"}];
+ {src: require("./img/bz.png"), buttons: ["Mexico", "Costa Rica", "Panama", "Belize"],cor: "Belize"},
+ {src: require("./img/ca.png"), buttons: ["Canada", "Costa Rica", "United States", "Greenland"],cor: "Canada"},
+ {src: require("./img/cd.png"), buttons: ["Congo (Rep.)", "Congo (D. R.)", "Rwanada", "Zambia"],cor: "Congo (D. R.)"},
+ {src: require("./img/cf.png"), buttons: ["Congo (Rep.)", "Congo (D. R.)", "Central African Republic", "Guinea"],cor: "Central African Republic"},
+ {src: require("./img/cg.png"), buttons: ["Congo (D. R.)", "Zambia", "Central African Republic", "Congo (Rep.)"],cor: "Congo (Rep.)"},
+ {src: require("./img/ch.png"), buttons: ["Switzerland", "Lichenstien", "Germany", "Luxembourg"],cor: "Switzerland"},
+ {src: require("./img/ci.png"), buttons: ["Guinea", "Côte d'Ivoire", "Ghana", "Italy"],cor: "Côte d'Ivoire"},
+ {src: require("./img/ck.png"), buttons: ["Austrailia", "New Zealand", "Cook Islands", "United Kingdom"],cor: "Cook Islands"},
+ {src: require("./img/cl.png"), buttons: ["Mexico", "United States", "Panama", "Chile"],cor: "Chile"},
+ {src: require("./img/cm.png"), buttons: ["Cameroon", "Guinea", "Ethiopia", "Somalia"],cor: "Cameroon"},
+ {src: require("./img/cn.png"), buttons: ["Japan", "China", "North Korea", "Taiwan"],cor: "China"},
+ {src: require("./img/co.png"), buttons: ["Venezuela", "Ecuador", "Colombia", "Brazil"],cor: "Colombia"},
+ {src: require("./img/cr.png"), buttons: ["Mexico", "Panama", "Colombia", "Costa Rica"],cor: "Costa Rica"},
+ {src: require("./img/cu.png"), buttons: ["Cuba", "Bahamas", "Jamaica", "Mexico"],cor: "Cuba"},
+ {src: require("./img/cv.png"), buttons: ["Cuba", "Cape Verde", "Spain", "Comoros"],cor: "Cape Verde"},
+ {src: require("./img/cw.png"), buttons: ["Aruba", "Cape Verde", "Curaçao", "Barbados"],cor: "Curaçao"},
+ {src: require("./img/cy.png"), buttons: ["Greece", "Malta", "Israel", "Cyprus"],cor: "Cyprus"},
+ {src: require("./img/cz.png"), buttons: ["Czech Republic", "Slovakia", "Poland", "Slovenia"],cor: "Slovakia"}];
 
 const blank = {src: null, b1: null, b2: null, b3: null, b4: null,cor: null};
 
