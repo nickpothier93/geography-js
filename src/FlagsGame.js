@@ -67,7 +67,7 @@ export default class FlagGame extends React.Component {
       return (
         <div>
           <div id="flagsBtn">
-            <button onClick={this.startTimer.bind(this)}>Flags</button>
+            <button onClick={this.startTimer.bind(this)}>Start</button>
           </div>
           <div id="flagGame" style={{display: 'none'}}>
             <div>Time Remaining: {this.state.count}</div>

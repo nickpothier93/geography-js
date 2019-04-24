@@ -48,7 +48,22 @@ const obj = [ {src: require("./img/ad.png"), buttons: [ "France", "Andorra",  "S
  {src: require("./img/cv.png"), buttons: ["Cuba", "Cape Verde", "Spain", "Comoros"],cor: "Cape Verde"},
  {src: require("./img/cw.png"), buttons: ["Aruba", "Cape Verde", "Curaçao", "Barbados"],cor: "Curaçao"},
  {src: require("./img/cy.png"), buttons: ["Greece", "Malta", "Israel", "Cyprus"],cor: "Cyprus"},
- {src: require("./img/cz.png"), buttons: ["Czech Republic", "Slovakia", "Poland", "Slovenia"],cor: "Slovakia"}];
+ {src: require("./img/cz.png"), buttons: ["Czech Republic", "Slovakia", "Poland", "Slovenia"],cor: "Czech Republic"},
+ {src: require("./img/de.png"), buttons: ["Belguim", "France", "Germany", "Norway"],cor: "Germany"},
+ {src: require("./img/dj.png"), buttons: ["Ethiopia", "Somalia", "Eritrea", "Djibouti"],cor: "Djibouti"},
+ {src: require("./img/dk.png"), buttons: ["Denmark", "Norway", "Finland", "Sweden"],cor: "Denmark"},
+ {src: require("./img/dm.png"), buttons: ["Dominican Republic", "Dominica", "Haiti", "Jamaica"],cor: "Dominica"},
+ {src: require("./img/do.png"), buttons: ["Haiti", "Dominica", "Dominican Republic", "Jamaica"],cor: "Dominican Republic"},
+ {src: require("./img/dz.png"), buttons: ["Yemen", "Turkey", "Pakistan", "Algeria"],cor: "Algeria"},
+ {src: require("./img/ec.png"), buttons: ["Ecuador", "Bolivia", "Colombia", "Chile"],cor: "Ecuador"},
+ {src: require("./img/ee.png"), buttons: ["Lithuania", "Estonia", "Finland", "Belarus"],cor: "Estonia"},
+ {src: require("./img/eg.png"), buttons: ["Yemen", "Oman", "Egypt", "Libya"],cor: "Egypt"},
+ {src: require("./img/er.png"), buttons: ["Ethiopia", "Somalia", "Djibouti", "Eritrea"],cor: "Eritrea"},
+ {src: require("./img/es.png"), buttons: ["Spain", "Brazil", "Portugal", "Andora"],cor: "Spain"},
+ {src: require("./img/et.png"), buttons: ["Somalia", "Ethiopia", "Djibouti", "Eritrea"],cor: "Ethiopia"},
+ {src: require("./img/fi.png"), buttons: ["Lithuania", "Estonia", "Finland", "Belarus"],cor: "Finland"},
+ {src: require("./img/bm.png"), buttons: ["Anguilla", "United Kingdom", "Bermuda", "Fiji"],cor: "Fiji"}];
+
 
 const blank = {src: null, b1: null, b2: null, b3: null, b4: null,cor: null};
 

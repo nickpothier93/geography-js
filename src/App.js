@@ -1,6 +1,5 @@
 import React from 'react';
 import FlagsGame from "./FlagsGame.js";
-import HighScores from "./HighScores.js";
 import GameOver from "./GameOver.js";
 import Utils from './Utils.js';
 import $ from 'jquery'; 
@@ -47,7 +46,6 @@ export default class App extends React.Component {
                   isWinner={this.state.isWinner}
                   country={this.state.country}
                   handler={this.handler}/>
-              <HighScores />
             </div>
             <GameOver count={this.state.count} 
                 score={this.state.score} 
