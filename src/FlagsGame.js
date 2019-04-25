@@ -67,15 +67,19 @@ export default class FlagGame extends React.Component {
       return (
         <div>
           <div id="flagsBtn">
-            <button onClick={this.startTimer.bind(this)}>Start</button>
+            <button type="button" className="btn btn-success" onClick={this.startTimer.bind(this)}>Start</button>
           </div>
           <div id="flagGame" style={{display: 'none'}}>
-            <div>Time Remaining: {this.state.count}</div>
-            <div>Score: {this.state.score}</div>
+          <div className='scoreCard'>
+            <div className='alignleft'>Time Remaining: {this.state.count}</div>
+            <div className='alignright'>Score: {this.state.score}</div>
+          </div>
             <Flag flagFile={this.state.country.src} />
-            {this.state.country.buttons.map(number => (
-              <QuizButton key={number} answer={number} onClickFunc={this.selection.bind(this)}/>
-            ))}
+            <div className="answerBtns">
+              {this.state.country.buttons.map(number => (
+                <QuizButton key={number} answer={number} onClickFunc={this.selection.bind(this)}/>
+              ))}
+            </div>
           </div>
         </div>
 

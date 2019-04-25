@@ -37,8 +37,9 @@ export default class App extends React.Component {
       return (
         <div>
             <div id='mainMenu'>
+              <img alt="Earth" width="400px" height="400px" src={require('./img/earth.png')}></img>
               <h1>Geography.Js</h1>
-              <h3>A simple quiz app made in React.Js</h3>
+              <h5>A simple quiz app made in React.Js</h5>
             </div>
             <div id="btns">
               <FlagsGame count={this.state.count} 

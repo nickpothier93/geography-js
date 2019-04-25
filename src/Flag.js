@@ -3,7 +3,9 @@ import React from "react";
 export default class Flag extends React.Component {
     render(){
         return(
-            <img src={this.props.flagFile} alt="flag" width="200px" height="100px"/>
+            <div className="flagDiv">
+                <img className='flagEffect' width='25%' height='25%' src={this.props.flagFile} alt="flag"/>
+            </div>
         );
     }
 }
