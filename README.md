@@ -9,3 +9,5 @@ A simple web quiz game based on Wiki assets and studying useless facts. Created 
 0.2 : Base game implemented but not optimized. Still missing save option and CSS. Compiles and works.
 
 0.3 : Code more optized. Flags A-B added. Game works but is missing saving feature/CSS.
+
+0.4: CSS added, more countries added, in working condition. Needs more clean up before release.
