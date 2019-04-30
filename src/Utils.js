@@ -1,5 +1,11 @@
+// Utilities Singleton Object
+// Provides share data and functions
 import $ from 'jquery'; 
-
+ 
+// Countries Data Object
+// Since this is just a React.JS Demo I just made the data into an obj, no Database
+// List in Incomplete, too many countries not enough time
+// If you want, if you finish the list I will buy you a beer
 const obj = [ {src: require("./img/ad.png"), buttons: [ "France", "Andorra",  "Spain", "Bermuda"], cor: "Andorra"},
  {src: require("./img/ae.png"),  buttons: [ "Qatar", "Yemen", "Oman", "UAE"], cor: "UAE"},
  {src: require("./img/af.png"), buttons: ["Afghanistan", "Pakistan", "Turkmenistan",  "Iraq"],cor: "Afghanistan"},
@@ -107,24 +113,26 @@ const obj = [ {src: require("./img/ad.png"), buttons: [ "France", "Andorra",  "S
  {src: require("./img/kz.png"), buttons: ["Kazakhstan", "Uzbekistan", "Tajikistan", "Azerbaijan"],cor: "Kazakhstan"},
  {src: require("./img/us.png"), buttons: ["Liberia", "United States", "Canada", "Chile"],cor: "United States"}];
 
+// Blank data object, return is error occurs
 const blank = {src: null, b1: null, b2: null, b3: null, b4: null,cor: null};
 
+// Countries used array records which countries were shown 
 var countryUsed = [];
 
+// Var of how many flags are available
 const amountOfFlags =  obj.length -1;
 
+// Random flag generator based on index number
 const randNum = () => {
     return Math.floor(Math.random() * (amountOfFlags));
 }
-
-Object.size = function(obj) {
-    var size = 0, key;
-    for (key in obj) {
-        if (obj.hasOwnProperty(key)) size++;
-    }
-    return size;
-};
-
+// Main Utitls Funcitions
+// - clearMenu: hides the main menu
+// - loadMenu: loads the main menu
+// - winner: determines if the last flag was shown
+// - reset: clears countries that are used
+// - loadCountry: randomly generates a new flag, pushes the index into an array of used flags, 
+//                sends flag to the application to be shown, sends blank if errors  
 const Utils = {
     clearMenu : () => {
         $('#highBtn').hide();
