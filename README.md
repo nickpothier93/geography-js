@@ -6,7 +6,7 @@ A simple web quiz game based on Wiki assets and studying useless facts. Created 
 
 1) Make sure Node.js is installed (go to terminal and type 'npm -v' to verify)
 2) Download or clone the repository
-3) Type 'npm start' in the repository directory
+3) Type 'npm install' then 'npm start' in the repository directory
 4) Enjoy!
 
 ## Official Release
